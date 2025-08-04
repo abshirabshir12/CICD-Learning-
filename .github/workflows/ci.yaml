@@ -30,7 +30,7 @@ jobs:
         fi 
 
     - name: run tests 
-      run: 
+      run: |
         cd chapter4
         python -m unittest discover
 
